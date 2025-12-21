@@ -5,7 +5,7 @@ if(isset($message)){
         echo '
         <div class="message">
             <span>'.$message.'</span>
-            <i class="fa-solid fa-xmark" onclick="this.parentElement.remove();"></i>
+            <i class="fa-solid" onclick="this.parentElement.remove();"></i>
         </div>
     ';    
     } 
@@ -34,5 +34,3 @@ if(isset($message)){
       </div>
     </div>
   </header>
-
-  <!-- <script src="admin_js.js"></script> -->

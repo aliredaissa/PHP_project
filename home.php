@@ -67,7 +67,7 @@ if (isset($_POST['add_to_cart'])) {
           <form action="" method="post" class="pro_box">
             <img src="./uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
             <h3><?php echo $fetch_products['name']; ?></h3>
-            <p>Rs. <?php echo $fetch_products['price']; ?>/-</p>
+            <p>$<?php echo $fetch_products['price']; ?></p>
           
             <input type="hidden" name="product_name" value="<?php echo $fetch_products['name'] ?>">
             <input type="number" name="product_quantity" min="1" value="1">
@@ -88,7 +88,7 @@ if (isset($_POST['add_to_cart'])) {
   </section>
 
   <section class="about_cont">
-    <img src="google.jpg" alt="">
+    <img src="./uploaded_img/google.jpg" alt="">
     <div class="about_descript">
       <h2>Discover Our Story</h2>
       <p>At Bookiee, we are passionate about connecting readers with captivating stories, inspiring ideas, and a world of knowledge. Our bookstore is more than just a place to buy books; it's a haven for book enthusiasts, where the love for literature thrives.

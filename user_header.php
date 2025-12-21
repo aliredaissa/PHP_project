@@ -4,7 +4,7 @@ if(isset($message)){
         echo '
         <div class="message">
             <span>'.$message.'</span>
-            <i class="fa-solid fa-xmark" onclick="this.parentElement.remove();"></i>
+            <i class="fa-solid" onclick="this.parentElement.remove();"></i>
         </div>
     ';    
     } 
@@ -14,7 +14,7 @@ if(isset($message)){
   <div class="header_1">
     <div class="user_flex">
       <div class="logo_cont">
-        <img src="book_logo.png" alt="">
+        <img src="./uploaded_img/book_logo.png" alt="">
 
         <a href="home.php" class="book_logo">Main</a>
       </div>
@@ -34,7 +34,6 @@ if(isset($message)){
         </div>
 
         <div class="icons">
-        <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
           <a class="fa-solid fa-magnifying-glass" href="search_page.php"></a>
 
           <div class="fas fa-user" id="user_btn"></div>

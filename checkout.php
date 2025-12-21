@@ -81,7 +81,7 @@ include 'user_header.php';
     <img src="./uploaded_img/<?php echo$fetch_cart['image'];?>" alt="">
     <div class="single_des">
     <h3><?php echo $fetch_cart['name'];?></h3>
-    <p>Rs. <?php echo $fetch_cart['price'];?></p>
+    <p>$ <?php echo $fetch_cart['price'];?></p>
     <p>Quantity : <?php echo $fetch_cart['quantity'];?></p>
     </div>
 
@@ -94,7 +94,7 @@ include 'user_header.php';
   echo '<p class="empty">your cart is empty</p>';
 }
   ?>
-  <div class="checkout_grand_total"> GRAND TOTAL : <span>$<?php echo $grand_total; ?>/-</span> </div>
+  <div class="checkout_grand_total"> GRAND TOTAL : <span>$<?php echo $grand_total; ?></span> </div>
 </section>
 
 

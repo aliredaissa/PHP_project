@@ -121,8 +121,8 @@ include 'admin_header.php';
       <?php echo $fetch_products['name'];?>
       </div>
 
-      <div class="product_price">Rs. 
-      <?php echo $fetch_products['price'];?> /-
+      <div class="product_price">$ 
+      <?php echo $fetch_products['price'];?>
       </div>
 
       <a href="admin_products.php?update=<?php echo $fetch_products['id']?>" class="product_btn">Update</a>
