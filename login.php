@@ -79,7 +79,7 @@ if(isset($message)){
         
         <div class="links">
             <a href="#">Forgot Password</a>
-            <a href="register.php">Sign in</a>
+            <a href="register.php">Sign up</a>
         </div>
 
         <input type="submit" value="Login" name="submit">
@@ -87,4 +87,4 @@ if(isset($message)){
 </div>
 <script src="https://kit.fontawesome.com/eedbcd0c96.js" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 

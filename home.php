@@ -99,7 +99,7 @@ if (isset($_POST['add_to_cart'])) {
 
   <section class="questions_cont">
     <div class="questions">
-    <h2>Have Any Queries?</h2>
+    <h2>Have Any Questions?</h2>
     <p>At Bookiee, we value your satisfaction and strive to provide exceptional customer service. If you have any questions, concerns, or inquiries, our dedicated team is here to assist you every step of the way.</p>
     <button class="product_btn">Contact Us</button>
     </div>
