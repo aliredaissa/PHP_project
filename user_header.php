@@ -60,3 +60,12 @@ if(isset($message)){
   </div>
 
 </header>
+
+<script>
+    const messages = document.querySelectorAll('.message');
+    messages.forEach(msg => {
+        setTimeout(() => {
+            msg.remove();
+        }, 3000);
+    });
+</script>

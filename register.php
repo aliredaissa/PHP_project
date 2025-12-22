@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
     $email=mysqli_real_escape_string($conn,$_POST['email']);
     $password=mysqli_real_escape_string($conn,md5($_POST['password']) );
     $cpassword=mysqli_real_escape_string($conn,md5($_POST['cpassword']) );
-    $user_type=$_POST['user_type'];
+    $user_type='user';
 
     $select_users=mysqli_query($conn,"SELECT * FROM `register` WHERE email='$email' AND password='$password'") or die('query failed');
 
