@@ -81,7 +81,8 @@ if (isset($_POST['add_to_cart'])) {
       <?php
         }
       } else {
-        echo '<p class="empty">No Products Added Yet !</p>';
+        echo '<
+        p class="empty">No Products Added Yet !</p>';
       }
       ?>
     </div>
@@ -91,7 +92,7 @@ if (isset($_POST['add_to_cart'])) {
     <img src="./uploaded_img/google.jpg" alt="">
     <div class="about_descript">
       <h2>Discover Our Story</h2>
-      <p>At Bookiee, we are passionate about connecting readers with captivating stories, inspiring ideas, and a world of knowledge. Our bookstore is more than just a place to buy books; it's a haven for book enthusiasts, where the love for literature thrives.
+      <p>At World of Books, we are passionate about connecting readers with captivating stories, inspiring ideas, and a world of knowledge. Our bookstore is more than just a place to buy books; it's a haven for book enthusiasts, where the love for literature thrives.
     </p>
     <button class="product_btn" onclick="window.location.href='about.php';">Read More</button>
     </div>
@@ -100,8 +101,8 @@ if (isset($_POST['add_to_cart'])) {
   <section class="questions_cont">
     <div class="questions">
     <h2>Have Any Questions?</h2>
-    <p>At Bookiee, we value your satisfaction and strive to provide exceptional customer service. If you have any questions, concerns, or inquiries, our dedicated team is here to assist you every step of the way.</p>
-    <button class="product_btn">Contact Us</button>
+    <p>At World of Books, we value your satisfaction and strive to provide exceptional customer service. If you have any questions, concerns, or inquiries, our dedicated team is here to assist you every step of the way.</p>
+    <button class="product_btn" onclick="window.location.href='contact.php';">Contact Us</button>
     </div>
     
   </section>
